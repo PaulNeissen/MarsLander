@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Space";
+    src: url("space.ttf")
+}
+
+body {
+    background-color: #031530;
+    color: white;
+    font-family: Space;
+}
+
+img {
+    color: white;
+}
+
+.title {
+    margin: 30px;
+    margin-left: 40%;
+}
