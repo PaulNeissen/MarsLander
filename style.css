@@ -6,14 +6,35 @@
 body {
     background-color: #031530;
     color: white;
-    font-family: Space;
-}
-
-img {
-    color: white;
+    font-family: Verdana;
 }
 
 .title {
     margin: 30px;
-    margin-left: 40%;
+    margin-left: 300px;
+    font-family: Space;
+}
+
+.canvas {
+    border: 1px solid #d3d3d3;
+    margin: 0 30px;
+}
+
+.pod-img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.fire-img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.rules {
+    margin: 30px;
+    max-width: 700px;
+}
+
+.data {
+    position: absolute;
 }

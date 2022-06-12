@@ -4,11 +4,34 @@
         <title>Mars lander</title>
         <link rel="icon" href="favicon.png" />
         <link href="style.css" rel="stylesheet">
+        <script src="main.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="title">
             <h1>Mars lander</h1>
         </div>
-        <img src="pod-white.png">
+        <img class="pod-img" src="pod-white.png">
+        <img class="fire-img" src="fire.png">
+        <canvas id="canvas" width="700" height="300" class="canvas"></canvas>
+        <div class="data">
+            <div class="x">x:</div>
+            <div class="y">y:</div>
+            <div class="vx">vx:</div>
+            <div class="vy">vy:</div>
+            <div class="fuel">fuel:</div>
+            <div class="angle">angle:</div>
+            <div class="power">power:</div>
+            <div class="input-angle">input angle:</div>
+            <div class="input-power">input power:</div>
+        </div>
+        <div class="rules">
+            <div>
+                Welcome to the Mars lander simulation 1.0, the goal here is to land the pod on the flat ground.
+                Use the left and right keys to tangle the pod and the up and down keys to tilt the pod.
+            </div>
+            <div>
+                The zone is 7000m wide and 3000m high, the origin (0,0) being the bottom left corner.
+            </div>
+        </div>
     </body>
 </html>
